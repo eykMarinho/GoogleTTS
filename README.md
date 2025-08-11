@@ -6,17 +6,10 @@ Sistema de Text-to-Speech (TTS) para SA-MP.
 
 1. Use as funções:
 ```pawn
-// TTS para um jogador específico
-SpeakText(playerid, "Olá mundo!");
-
-// TTS para todos os jogadores
-SpeakToAll("Bem-vindos ao servidor!");
-
-// Parar TTS de um jogador
-StopPlayerTTS(playerid);
-
-// Parar TTS de todos
-StopTTSForAll();
+SpeakText(playerid, "Olá mundo!"); // TTS para um jogador específico
+SpeakToAll("Bem-vindos ao servidor!"); // TTS para todos os jogadores
+StopPlayerTTS(playerid); // Parar TTS de um jogador
+StopTTSForAll(); // Parar TTS de todos
 ```
 
 ## Configuração
