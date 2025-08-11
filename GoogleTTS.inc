@@ -17,10 +17,10 @@
  * 
  */
 
-#if defined _EykVoice_included
-    #endinput
+#if defined _GoogleTTS_included
+	#endinput
 #endif
-#define _EykVoice_included
+#define _GoogleTTS_included
 
 // Configuration
 #if !defined MAX_TTS_TEXT_LENGTH
@@ -118,3 +118,4 @@ static stock UrlEncode(const input[], output[], maxlen) {
     
     output[pos] = '\0';
 }
+
