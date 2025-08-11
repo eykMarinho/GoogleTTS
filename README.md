@@ -1,6 +1,7 @@
 # GoogleTTS
 
 Sistema de Text-to-Speech (TTS) para SA-MP.
+Transforme textos em áudio usando a mesma voz do Google Tradutor. Seus jogadores poderão ouvir mensagens, anúncios e comandos diretamente no jogo.
 
 ## Como usar
 
