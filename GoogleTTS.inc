@@ -56,8 +56,7 @@ stock SpeakText(playerid, const text[]) {
     UrlEncode(text, encodedText, sizeof(encodedText));
     
     static audioUrl[300];
-    static const baseUrl[] = "https://translate.google.com/translate_tts?ie=UTF-8&tl=%s&client=tw-ob&q=%s";
-    format(audioUrl, sizeof(audioUrl), baseUrl, TTS_LANGUAGE, encodedText);
+    format(audioUrl, sizeof(audioUrl), "https://translate.google.com/translate_tts?ie=UTF-8&tl=%s&client=tw-ob&q=%s", TTS_LANGUAGE, encodedText);
     
     PlayAudioStreamForPlayer(playerid, audioUrl, 0.0, 0.0, 0.0, 1.0, 0);
     
@@ -118,4 +117,5 @@ static stock UrlEncode(const input[], output[], maxlen) {
     
     output[pos] = '\0';
 }
+
 
