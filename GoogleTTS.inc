@@ -16,6 +16,7 @@
  * - TTS_ERROR_TEXT_TOO_LONG (-2) - Texto muito longo
  * 
  */
+#include <a_samp>
 
 #if defined _GoogleTTS_included
 	#endinput
@@ -117,5 +118,6 @@ static stock UrlEncode(const input[], output[], maxlen) {
     
     output[pos] = '\0';
 }
+
 
 
